@@ -1,4 +1,4 @@
-# Machine Learning Project: Linear Regression & Decision Tree Regression on US Housing Data
+## Machine Learning Project: Linear Regression & Decision Tree Regression on US Housing Data
 
 This project involves implementing Linear Regression and Decision Tree Regression models using US Housing Data. The goal is to analyze and predict housing prices based on various features such as location, size, number of bedrooms, and other relevant factors.
 
