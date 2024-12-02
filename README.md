@@ -10,7 +10,7 @@ This repository is a dynamic and evolving space where I document my journey thro
 
 - [Linear Regression on Housing Data](ML_LinearRegression/README.md): Implementation of Linear Regression and Decision Tree Regression models to predict housing prices based on various features.
 - [Stock Sentiment Analysis](Stock_Sentiment_Analysis/README.md): This notebook demonstrates how to use a large language model (LLM) for sentiment analysis on publicly traded stock data.
-- [Vertex ML Training](Vertex ML Traning): This notebook demonstrates how to train a machine learning model at scale using Google Cloud's Vertex AI Training Service, including data preparation, model training, and deployment.
+- [Vertex ML Training](Vertex_ML_Training): This notebook demonstrates how to train a machine learning model at scale using Google Cloud's Vertex AI Training Service, including data preparation, model training, and deployment.
 
 ## How to Use
 
