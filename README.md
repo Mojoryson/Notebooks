@@ -1,4 +1,4 @@
-# Machine Learning and AI Projects
+# ML/AI Projects
 
 Welcome to my Machine Learning and AI Projects repository! This repository is a collection of Jupyter notebooks that outline various machine learning and AI projects I have worked on and am currently building. It serves as a playpen for my experiments, learnings, and explorations in the field of machine learning and artificial intelligence.
 
