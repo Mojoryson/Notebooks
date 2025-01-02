@@ -48,15 +48,3 @@ df = pd.DataFrame(processed_data)
 # Display the DataFrame
 pd.set_option('display.max_colwidth', None) 
 print(df)
-    
- 
- 
- 
- 
- ####-----------------------------   
-    #print(f"Name: {name}")
-    #print(f"Address: {address}")
-    #print(f"Phone: {phone}")
-    #print(f"Google Maps Link: {maps_link}")
-
-    # Here, we'll add the code to extract the zip code and find income data
