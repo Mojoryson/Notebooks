@@ -1,25 +1,35 @@
 # Rod Morrison
 
-*   Email: [**rod.morrison@gmail.com**](mailto:rod.morrison@gmail.com)
+*   Email: [**rod.morrison@gmail.com**](mailto:rod.morrison@gmail.com) 
 *   Phone: [**713-907-7102**](tel:7139077102)
 *   [**LinkedIn**](https://www.linkedin.com/in/rmorrison/)
 *   [**Github**](https://github.com/Mojoryson)
 
+
+**Professional Summary**
+Data-driven growth leader with expertise in AI, data analytics, and cloud platforms. I specialize in transforming data
+ecosystems to drive business growth, with a focus on optimizing customer acquisition, retention, and product
+adoption. With a proven track record of scaling early-stage companies and modernizing legacy systems, I build
+agile, real-time infrastructures that unlock revenue opportunities. Adept at leading high-performing teams to solve
+complex technical challenges, I excel at driving rapid growth and successfully positioning companies for major
+milestones, such as funding rounds or market expansions.
+
 **Skills**
 
-- **Technical:** Linux, Python, Bash, AWS, GCP, Vertex AI, SQL, H20.ai, Confluent Kafka, ETL/ELT, SaaS, Advanced Analytics, Data Fabric Design, Snowflake, Data Engineering, ML/AI, CI/CD, DCX, CEM, VOC
+- **Technical Expertise:** Linux, Python, Bash, AWS, GCP, Vertex AI, SQL, H20.ai, Confluent Kafka, ETL/ELT, SaaS, Advanced Analytics, Data Fabric Design, Snowflake, Data Engineering, ML/AI, CI/CD, DCX, CEM, VOC
 - **Sales:** MEDDIC, Strategic Partnership Management, Stakeholder Communication, Customer Acquisition and Retention, GTM Strategy, Performance Metrics, KPI Analysis, Multi-year Presidents Club & Quota Achievement
 - **Leadership:** Skilled at leading cross-functional teams, mentoring, and scaling high-performing teams to drive business growth, enhance brand development, optimize user experience, , collaborate on product development and growth
 
 **Experience**
 
 **Raken Data Group – Head of Data Solutions 2024 - Present**
-- Spearheading expansion into North America, prioritizing customer acquisition, retention, and revenue growth.
-- Cultivate strategic partnerships with software providers to expand market share and solidify North American presence.
-- Lead end-to-end project delivery, ensuring on-time, on-budget execution and exceeding CSAT expectations.
-- Create customized, platform-agnostic solutions that deliver measurable ROI and drive customer loyalty.
-- Utilize data analytics to identify growth opportunities and optimize business performance, driving strategic decision-making.
-- Developing and deploying proprietary machine learning models within a multi-vertical SaaS platform, enabling businesses to leverage advanced analytics, optimize resource allocation, and achieve data-driven growth across various sectors.
+
+- Responsible for RDG’s expansion into North America, focusing on customer acquisition, retention, and revenue.
+- Manage strategic partnerships with software providers to drive market share and enhance North American presence.
+- Oversee end-to-end project delivery, ensuring timely execution and client satisfaction.
+- Deliver platform-agnostic, bespoke solutions that generate ROI and drive customer satisfaction.
+- Leverage data analytics to identify growth opportunities and optimize business performance.
+- Plan, develop, and deploy RDG’s proprietary ML models into SaaS product offerings.
 
 **HungerRush – Sales Engineer 2023 – 2023**
 
