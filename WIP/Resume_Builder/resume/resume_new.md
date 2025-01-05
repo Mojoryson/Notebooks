@@ -1,11 +1,10 @@
 # Rod Morrison
 
 **Contact Information:**
-Email: [rod.morrison@gmail.com](mailto:rod.morrison@gmail.com)
-Phone: [713-907-7102](tel:7139077102)
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/rmorrison/)
-Github: [Github](https://github.com/Mojoryson)
-
+- Email: [rod.morrison@gmail.com](mailto:rod.morrison@gmail.com)
+- Phone: [713-907-7102](tel:7139077102)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rmorrison/)
+- Github: [Github](https://github.com/Mojoryson)
 
 **Professional Summary**
 
