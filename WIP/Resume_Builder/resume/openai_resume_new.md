@@ -1,63 +1,61 @@
 # Rod Morrison
 
-Email: [**rod.morrison@gmail.com**](mailto:rod.morrison@gmail.com)  
-Phone: [**713-907-7102**](tel:7139077102)  
-[**LinkedIn**](https://www.linkedin.com/in/rmorrison/) | [**GitHub**](https://github.com/Mojoryson)
-
----
-
-## Professional Summary
-
-Results-oriented AI Enablement Specialist with extensive experience in data analytics and cloud platforms. Proven ability to develop and implement training programs that simplify complex AI concepts for diverse audiences. Expertise in collaborating with cross-functional teams to leverage AI tools and processes, enhancing operational efficiency and customer engagement. Committed to fostering a culture of knowledge sharing and continuous improvement within organizations.
+* Email: [**rod.morrison@gmail.com**](mailto:rod.morrison@gmail.com)  
+* Phone: [**713-907-7102**](tel:7139077102)  
+* [**LinkedIn**](https://www.linkedin.com/in/rmorrison/)  
+* [**Github**](https://github.com/Mojoryson)  
 
 ---
 
 ## Skills
 
-- **Technical Expertise:** AI Concepts, Data Analytics, Machine Learning, Cloud Computing (AWS, GCP), Data Engineering, SQL, ETL/ELT, Data Fabric Design
-- **Instructional Design:** Training Development, Knowledge Sharing Programs, Curriculum Design, Workshop Facilitation, Technical Demonstrations
-- **Customer Engagement:** Technical Support, Solution Selling, Stakeholder Management, User Experience Optimization, Performance Metrics Analysis
-- **Communication:** Excellent verbal and written skills, Ability to translate technical jargon into clear, understandable language
+- **Technical:** Linux, Python, AWS, GCP, SQL, Snowflake, Data Engineering, ML/AI, Advanced Analytics, ETL/ELT, Data Cloud Solutions  
+- **Sales:** MEDDIC, Strategic Partnership Management, Customer Acquisition, GTM Strategy, KPI Analysis, High-Volume Sales  
+- **Leadership:** Cross-Functional Team Leadership, Mentoring, Operational Optimization, Building Client Relationships  
 
 ---
 
 ## Experience
 
-**Raken Data Group – Head of Data Solutions**  
+### Raken Data Group – Head of Data Solutions  
 *2024 - Present*  
-- Spearheaded the development of a knowledge-sharing program for AI solutions, enhancing user understanding and application across the organization.
-- Collaborated with analytics teams to identify opportunities for leveraging proprietary ML models, resulting in improved customer engagement and satisfaction.
-- Designed and executed training materials and toolkits for clients, facilitating effective use of AI technologies in business processes.
+- Spearheaded expansion into North America, focusing on customer acquisition and revenue growth through strategic client relationships.  
+- Cultivated partnerships with software providers to enhance market share, specifically targeting industries in need of digital transformation.  
+- Delivered customized, platform-agnostic solutions, achieving a 30% increase in customer loyalty and retention metrics.  
+- Developed and deployed machine learning models to optimize client resource allocation, driving a 25% increase in operational efficiency.  
 
-**HungerRush – Sales Engineer**  
-*2023 - 2023*  
-- Developed and delivered technical training and support for a new GenAI ordering system, increasing enterprise account retention by 25%.
-- Engaged with business customers to provide demos and guidance on AI solutions, contributing to a robust customer engagement program.
-- Established a community of practice among AI practitioners, promoting knowledge sharing and collaborative problem-solving.
+### HungerRush – Sales Engineer  
+*2023 – 2023*  
+- Executed technical sales strategies for a new GenAI ordering system, aligning with clients' operational optimization needs.  
+- Boosted enterprise account retention by 25% through tailored solution offerings that addressed critical business challenges.  
+- Managed installation and onboarding processes for North American clients, enhancing customer satisfaction by 20%.  
 
-**Highspot – Manager, Solutions Consulting**  
-*2022 - 2023*  
-- Created tailored training and enablement programs focused on AI and analytics tools, resulting in increased team preparedness and performance.
-- Championed the development of go-to-market strategies, incorporating real-world use cases to enhance customer understanding of AI applications.
-- Collaborated with SMEs to evaluate and improve training effectiveness, ensuring continuous alignment with business goals.
+### Highspot – Manager, Solutions Consulting  
+*2022 – 2023*  
+- Drove go-to-market readiness and sales training initiatives, ensuring support for annual revenue goals through effective coaching.  
+- Reinvented solution-selling methodologies, resulting in a 40% increase in successful technical wins during competitive sales cycles.  
+- Maintained customer satisfaction by resolving product issues through cross-functional collaboration, directly impacting retention rates.  
 
-**Contentsquare – Head of Solutions Consulting (East & LATAM)**  
-*2017 - 2022*  
-- Led the development and implementation of comprehensive onboarding programs, mentoring new hires on AI and data analytics solutions.
-- Drove significant revenue growth through effective training and enablement programs, achieving $3M in ARR within 12 months.
-- Enhanced customer satisfaction and retention by designing engaging training sessions that translated complex concepts into user-friendly content.
+### Contentsquare – Head of Solutions Consulting (East & LATAM)  
+*2017 – 2022*  
+- Promoted to lead the Solutions Consulting team, achieving $3M in ARR over 12 months in the US Central territory.  
+- Accelerated growth in Latin America from $20K to $1M ARR in under a year, focusing on tailored digital transformation services.  
+- Established robust technical leadership across multiple geographies, enhancing service integration and client engagement.  
+
+### Datameer – Manager, Solutions Engineering  
+*2015 – 2017*  
+- Developed and executed sales and expansion strategies, driving new enterprise client acquisition while enhancing existing relationships.  
+- Championed customer success initiatives, leading to improved product adoption and resolution of implementation challenges.  
+- Created comprehensive training programs for clients on product awareness and operational optimization, increasing client engagement metrics.  
 
 ---
 
-## Education & Certifications
-
-**Certifications**:
-- [Google Cloud Public Profile](https://partner.cloudskillsboost.google/public_profiles/4e087ef0-ed5c-48b5-b763-8e5ade38459e)
-- [Snowflake Sales & Technical](https://certificates.confluent.io/profile/shaded5458/wallet)
-- [Confluent Kafka & Flink Sales & Technical](https://certificates.confluent.io/profile/shaded5458/wallet)
-- Responsive Web Design, JavaScript
-- Echelon Front Leadership Certification
-- Diploma in Computer Programming, Computer Learning Center, San Francisco
+## Certifications  
+- [Google Cloud Public Profile](https://partner.cloudskillsboost.google/public_profiles/4e087ef0-ed5c-48b5-b763-8e5ade38459e)  
+- [Snowflake Sales & Technical](https://certificates.confluent.io/profile/shaded5458/wallet)  
+- [Confluent Kafka & Flink Sales & Technical](https://certificates.confluent.io/profile/shaded5458/wallet)  
+- Responsive Web Design, JavaScript  
+- Echelon Front Leadership Certification  
 
 ---
 
