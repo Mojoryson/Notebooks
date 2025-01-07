@@ -1,4 +1,4 @@
-# Rod Morrison
+## Rod Morrison
 
 **Contact Information:**
 * Email: [rod.morrison@gmail.com](mailto:rod.morrison@gmail.com)
@@ -9,48 +9,55 @@
 
 **Summary**
 
-Results-oriented Sales Engineering leader with 10+ years of experience driving revenue growth and building high-performing teams in the SaaS industry. Proven track record of exceeding quota, developing go-to-market strategies, and fostering strong customer relationships within Enterprise accounts. Expertise in MEDDIC and other solution-selling methodologies, coupled with a passion for mentoring and coaching sales engineers to achieve peak performance.  Adept at collaborating cross-functionally with sales, product, and marketing teams to ensure seamless execution and customer satisfaction. Seeking to leverage leadership skills and technical expertise to build and manage a world-class Sales Engineering team at Pendo.
+Highly motivated and results-oriented sales and solutions consulting leader with 10+ years of experience driving revenue growth and exceeding targets within the SaaS and data technology sectors. Proven ability to build and lead high-performing teams, develop and execute go-to-market strategies, and cultivate strong customer relationships. Expertise in platform solutions, data analytics, and enterprise sales processes, with a passion for aligning client needs with innovative technical solutions. Seeking to leverage leadership skills and technical expertise to build and lead Rippling's new Platform Solutions Consulting team.
 
 
 **Experience**
 
-**Highspot – Manager, Solutions Consulting (2022 – 2023)**
-* Developed go-to-market readiness plans, identifying and addressing gaps to ensure team preparedness for annual goals, aligning with Pendo's focus on driving sales engineering excellence.
-* Championed solution-selling mentorship and coaching using MEDDIC, directly relevant to Pendo's requirement for experience with this methodology.
-* Collaborated with cross-functional teams to identify, qualify, and prioritize business opportunities, mirroring Pendo's emphasis on collaboration between sales and sales engineering.
-* Participated in opportunity review meetings to secure technical wins, showcasing experience in strategic problem-solving within a sales context.
+**Raken Data Group – Head of Data Solutions | 2024-Present**
 
-**Contentsquare – Head of Solutions Consulting (East & LATAM) (2017 – 2022)**
-* Promoted to lead the Solutions Consulting team, demonstrating leadership experience required by Pendo.
-* Drove significant YOY revenue growth, aligning with Pendo's focus on results and quota attainment.
-* Built and led a top-performing post-sales engineering team, highlighting experience in managing and developing sales engineering talent.
-* Developed and delivered onboarding programs for new team members, showcasing experience in training and mentoring new hires, crucial for Pendo's team-building needs.
+* Spearheaded North American expansion, prioritizing customer acquisition, retention, and revenue growth through strategic partnerships with software providers.
+* Led end-to-end project delivery for customized, platform-agnostic solutions, consistently exceeding customer satisfaction expectations and delivering measurable ROI.
+* Developed and deployed proprietary machine learning models within a multi-vertical SaaS platform, enabling data-driven growth and optimized resource allocation.
+* Utilized data analytics to identify growth opportunities, optimize business performance, and drive strategic decision-making.
 
-**Datameer – Manager, Solutions Engineering (2015 – 2017)**
-* Developed and executed sales and expansion strategies to drive new enterprise client acquisition and expand existing customer relationships, relevant to Pendo's Enterprise focus.
-* Spearheaded Solutions Engineering team talent acquisition, onboarding, and skills development, directly aligning with Pendo's requirement for hiring and onboarding new team members.
-* Developed and executed the GTM strategy for Latin America, demonstrating experience in developing and executing sales strategies.
+**Contentsquare – Head of Solutions Consulting (East & LATAM) | 2017–2022**
 
+* Promoted from Senior Sales Engineer to lead the Solutions Consulting team, driving significant year-over-year revenue growth and exceeding targets.
+* Built and led a top-performing post-sales engineering team, driving adoption, customer retention, and improving NPS and CSAT scores, resulting in substantial revenue growth.
+* Accelerated Latin America expansion, achieving significant revenue growth from $20K to $1M ARR in less than a year.
+* Developed and delivered comprehensive onboarding programs and mentoring for new team members, enhancing sales engineering skills and team performance.
 
-**User Replay – Director of Sales Engineering (2015)**
-* Led sales and account penetration as an early employee, showcasing leadership and entrepreneurial spirit.
-* Achieved rapid growth, increasing North American territory revenue from $0 to $1M ARR in 8 months, demonstrating a track record of success and overachievement.
-* Aligned customer goals with customized solutions to drive increased ACV, highlighting experience in solution selling and meeting customer needs.
+**Highspot – Manager, Solutions Consulting | 2022–2023**
+
+* Developed go-to-market readiness plans, identifying and addressing gaps to ensure team preparedness for successful performance in support of annual goals.
+* Championed solution-selling mentorship and coaching using Corporate Visions and MEDDIC methodologies, enhancing team effectiveness and sales performance.
+* Participated in opportunity review meetings, providing technical expertise and insights to secure technical wins and drive successful sales outcomes.
+* Maintained customer satisfaction by working cross-functionally to resolve product problems and build trust with customers, fostering strong relationships and driving strategic business opportunities.
+
+**Datameer - Manager, Solutions Engineering | 2015–2017**
+
+* Developed and executed end-to-end sales and expansion strategies, driving new enterprise client acquisition and expanding existing customer relationships.
+* Spearheaded Solutions Engineering team talent acquisition, onboarding, and skills development, building a high-performing team to support sales efforts.
+* Developed and executed the go-to-market strategy for Latin America, driving market penetration and achieving significant revenue growth.
+* Championed Customer Success and client relationship management, resolving implementation and adoption issues to ensure customer satisfaction and retention.
 
 
 **Skills**
 
-* **Leadership:** Team Leadership, Mentoring, Coaching, Onboarding, Performance Management, Cross-functional Collaboration, Strategic Planning, Go-to-Market Strategy
-* **Sales Engineering:** MEDDIC, Solution Selling, Customer Acquisition, Customer Retention, Revenue Growth, Enterprise Sales, Technical Problem Solving, Sales Presentations, Product Demonstrations
-* **Technical:** SaaS, Cloud Computing (AWS, GCP), Data Analytics, Machine Learning
+* **Technical:** SaaS, Data Engineering, ML/AI, Advanced Analytics, Data Fabric Design, Snowflake, SQL, ETL/ELT, Cloud (AWS, GCP, Azure), CI/CD, API.
+* **Sales/Solutions Consulting:** MEDDIC, Corporate Visions, GTM Strategy, Customer Acquisition & Retention, Stakeholder Communication, Strategic Partnership Management, Salesforce Reporting, Performance Metrics, KPI Analysis.
+* **Leadership:** Team Leadership, Mentorship, Coaching, Onboarding, Cross-functional Collaboration, Performance Management, Go-to-Market Strategy Development.
 
 
-**Certifications**
+**Education & Certifications**
 
 * Google Cloud Public Profile: [https://partner.cloudskillsboost.google/public_profiles/4e087ef0-ed5c-48b5-b763-8e5ade38459e](https://partner.cloudskillsboost.google/public_profiles/4e087ef0-ed5c-48b5-b763-8e5ade38459e)
 * Snowflake Sales & Technical: [https://certificates.confluent.io/profile/shaded5458/wallet](https://certificates.confluent.io/profile/shaded5458/wallet)
 * Confluent Kafka & Flink Sales & Technical: [https://certificates.confluent.io/profile/shaded5458/wallet](https://certificates.confluent.io/profile/shaded5458/wallet)
 * Responsive Web Design, JavaScript
 * Echelon Front Leadership Certification
+* United States Army, 3rd Battalion / 11th Armored Cavalry Regiment | Bad Hersfeld, Germany
+* Diploma in Computer Programming, Computer Learning Center, San Francisco
 
 
