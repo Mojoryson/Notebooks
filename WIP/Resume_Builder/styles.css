@@ -1,78 +1,79 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Global styling */
 body {
-  font-family: "Georgia", serif;
-  line-height: 1.6;
-  margin: 20px;
-  padding: 30px;
-  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
   color: #333;
+  margin: 20px;
 }
 
+/* Header Styling */
 h1, h2, h3 {
+  color: #004080;
+  margin-bottom: 5px;
   font-weight: bold;
-  page-break-after: avoid;
 }
 
 h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
+  font-size: 28px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
 }
 
 h2 {
-  font-size: 1.8em;
-  margin-bottom: 0.5em;
+  font-size: 22px;
 }
 
 h3 {
-  font-size: 1.4em;
-  margin-bottom: 0.5em;
+  font-size: 18px;
 }
 
-p {
-  margin-bottom: 1em;
+/* Section spacing */
+section {
+  margin-bottom: 15px;
 }
 
+/* Bullet points */
 ul {
-  list-style-type: disc;
-  margin: 0;
-  padding-left: 2em;
-  margin-bottom: 1em;
+  margin-left: 20px;
+  padding-left: 0;
 }
 
 li {
-  margin-bottom: 0.5em;
+  margin-bottom: 5px;
+}
+
+li::marker {
+  color: #004080;
+  font-weight: bold;
+}
+
+/* Paragraph spacing */
+p {
+  margin: 5px 0;
+}
+
+/* Inline styles */
+strong {
+  color: #000;
+  font-weight: bold;
 }
 
 a {
-  color: black;
-  text-decoration: underline;
+  color: #0066cc;
+  text-decoration: none;
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 1.8em;
+/* Table of contents or subsections */
+.subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #004080;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-.section {
-  margin-bottom: 2em;
-  page-break-after: avoid;
-}
-
-.skills ul {
-  padding: 0;
-}
-
-.skills li {
-  margin-bottom: 0.5em;
-}
-
-.skills strong {
-  display: block;
-  margin-bottom: 0.3em;
+/* Page Margins */
+@page {
+  margin: 2cm;
 }
