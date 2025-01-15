@@ -15,6 +15,7 @@ Welcome to my Machine Learning and AI Projects repository! This repository is a 
 - [Vertex ML Training](Vertex_ML_Training): This notebook demonstrates how to train a machine learning model at scale using Google Cloud's Vertex AI Training Service, including data preparation, model training, and deployment.
 - [RAG System](RAG_SYSTEM): This notebook demonstrates a RAG system using Google Cloud's AI Platform, UMAP, and Python libraries to process and analyze text data from the Gracie Jiu-Jitsu book.
 -  [Resume Builder](Resume_Builder): This notebook demonstrates how to optimize resumes based on specific job descriptions using AI, including data import, prompt creation, API interaction, and output formatting for printing.
+- [MindBody Workouts Analysis](Workouts/MindBody_Workouts.ipynb): This notebook demonstrates how to extract and analyze workout class activity data from MindBody.com using BeautifulSoup, pandas, and matplotlib for reporting and analysis.
 - [Work In Progress](WIP): Projects that are currently in progress and not yet completed.
 
 ## How to Use
