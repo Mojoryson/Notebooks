@@ -23,8 +23,6 @@ st.write(
 )
 st.write("### Data Range: January 2017 to December 2024")
 
-# debug -unique_class_names = df["class_name"].unique()
-# debug - st.write(unique_class_names)
 
 # Sidebar Filters
 # List of classes to exclude
@@ -62,67 +60,70 @@ with st.expander("View the data"):
     st.dataframe(df)
 
 
-# Key Metrics
-st.write("### Key Metrics")
-total_sessions = len(filtered_df)
-total_duration = filtered_df['duration'].sum()
-avg_duration = filtered_df['duration'].mean()
+if filtered_df.empty:
+    st.write("### No data available for the selected filters.")
+else:
+    # Key Metrics
+    st.write("### Key Metrics")
+    total_sessions = len(filtered_df)
+    total_duration = filtered_df['duration'].sum()
+    avg_duration = filtered_df['duration'].mean()
 
-col1, col2, col3 = st.columns(3)
-col1.metric("Total Sessions", total_sessions)
-col2.metric("Total Duration (mins)", total_duration)
-col3.metric("Avg Duration (mins)", f"{avg_duration:.2f}")
-
-
-# Class Frequency Bar Chart
-st.write("### Class Frequency")
-class_counts = filtered_df["class_name"].value_counts()
-fig, ax = plt.subplots()
-sns.barplot(x=class_counts.index, y=class_counts.values, palette="viridis", ax=ax)
-ax.set_title("Class Frequency", fontsize=12)
-ax.set_xlabel("Class Name", fontsize=10)
-ax.set_ylabel("Count", fontsize=10)
-
-# Wrap and rotate x-axis labels
-wrapped_labels = [textwrap.fill(label, 10) for label in class_counts.index]
-ax.set_xticklabels(wrapped_labels, rotation=45, ha="right", fontsize=6)
-
-# Format y-axis for better readability
-ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{int(x):,}"))
-ax.set_ylim(0, class_counts.max() * 1.1)  # Add 10% padding
-st.pyplot(fig)
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Total Sessions", total_sessions)
+    col2.metric("Total Duration (mins)", total_duration)
+    col3.metric("Avg Duration (mins)", f"{avg_duration:.2f}")
 
 
+    # Class Frequency Bar Chart
+    st.write("### Class Frequency")
+    class_counts = filtered_df["class_name"].value_counts()
+    fig, ax = plt.subplots()
+    sns.barplot(x=class_counts.index, y=class_counts.values, palette="viridis", ax=ax)
+    ax.set_title("Class Frequency", fontsize=12)
+    ax.set_xlabel("Class Name", fontsize=10)
+    ax.set_ylabel("Count", fontsize=10)
 
-# Line Chart: Sessions Over Time
-st.write("### Sessions Over Time")
-filtered_df["date"] = pd.to_datetime(
-    filtered_df["year"] + " " + filtered_df["month"], format="%Y %B"
-)
-sessions_over_time = filtered_df.groupby("date").size()
-fig, ax = plt.subplots()
-sessions_over_time.plot(ax=ax, title="Sessions Over Time", marker="o")
-ax.set_ylabel("Number of Sessions")
-st.pyplot(fig)
+    # Wrap and rotate x-axis labels
+    wrapped_labels = [textwrap.fill(label, 11) for label in class_counts.index]
+    ax.set_xticklabels(wrapped_labels, rotation=45, ha="right", fontsize=8)
 
-# Heatmap: Popular Time of Day
-# Remove timezone (e.g., 'EDT', 'EST') from time_of_day
-filtered_df['time_of_day'] = filtered_df['time_of_day'].str.extract(r'(\d+:\d+\w+)').fillna("Unknown")
+    # Format y-axis for better readability
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{int(x):,}"))
+    ax.set_ylim(0, class_counts.max() * 1.1)  # Add 10% padding
+    st.pyplot(fig)
 
 
-# Heatmap: Popular Time of Day
-st.write("### Popular Time of Day")
-time_counts = filtered_df["time_of_day"].value_counts().sort_index()
 
-fig, ax = plt.subplots()
-sns.heatmap(
-    [time_counts.values],
-    annot=True,
-    fmt="d",
-    cmap="Blues",
-    xticklabels=time_counts.index,
-)
-ax.set_title("Session Popularity by Time of Day", fontsize=12)
-ax.set_xticklabels(time_counts.index, rotation=30, ha="right", fontsize=9)  # Rotate and align labels
-st.pyplot(fig)
+    # Line Chart: Sessions Over Time
+    st.write("### Sessions Over Time")
+    filtered_df["date"] = pd.to_datetime(
+        filtered_df["year"] + " " + filtered_df["month"], format="%Y %B"
+    )
+    sessions_over_time = filtered_df.groupby("date").size()
+    fig, ax = plt.subplots()
+    sessions_over_time.plot(ax=ax, title="Sessions Over Time", marker="o")
+    ax.set_ylabel("Number of Sessions")
+    st.pyplot(fig)
+
+    # Heatmap: Popular Time of Day
+    # Remove timezone (e.g., 'EDT', 'EST') from time_of_day
+    filtered_df['time_of_day'] = filtered_df['time_of_day'].str.extract(r'(\d+:\d+\w+)').fillna("Unknown")
+
+
+    # Heatmap: Popular Time of Day
+    st.write("### Popular Time of Day")
+    time_counts = filtered_df["time_of_day"].value_counts().sort_index()
+
+    fig, ax = plt.subplots()
+    sns.heatmap(
+        [time_counts.values],
+        annot=True,
+        fmt="d",
+        cmap="Blues",
+        xticklabels=time_counts.index,
+    )
+    ax.set_title("Session Popularity by Time of Day", fontsize=12)
+    ax.set_xticklabels(time_counts.index, rotation=30, ha="right", fontsize=9)  # Rotate and align labels
+    st.pyplot(fig)
 
