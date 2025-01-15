@@ -27,7 +27,7 @@ st.write("### Data Range: January 2017 to December 2024")
 # Sidebar Filters
 # List of classes to exclude
 excluded_classes = ["Unknown", "Boot Camp", "Fighting Mastery™", "Valente Brothers Seminar Adults",
-                    "Adult VB Seminar", "Fighting Foundations™"]  # Replace with your unwanted classes
+                    "Adult VB Seminar", "Fighting Foundations™"] 
 
 # Filter the class_name column to exclude specific classes
 available_classes = df["class_name"].unique()
@@ -63,18 +63,22 @@ with st.container():
 if filtered_df.empty:
     st.write("### No data available for the selected filters.")
 else:
-    # Key Metrics
+# Key Metrics
     with st.container():
         st.write("### Key Metrics")
         total_sessions = len(filtered_df)
-        total_duration = filtered_df["duration"].sum()
-        avg_duration = filtered_df["duration"].mean()
+        total_duration_minutes = filtered_df["duration"].sum()
+        avg_duration_minutes = filtered_df["duration"].mean()
 
-        col1, col2, col3 = st.columns(3)
+        # Convert duration to hours
+        total_duration_hours = total_duration_minutes / 60
+        avg_duration_hours = avg_duration_minutes / 60
+
+        col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Sessions", total_sessions)
-        col2.metric("Total Duration (mins)", total_duration)
-        col3.metric("Avg Duration (mins)", f"{avg_duration:.2f}")
-
+        col2.metric("Total Duration (hours)", f"{total_duration_hours:,.2f}")
+        col3.metric("Avg Duration (hours)", f"{avg_duration_hours:.2f}")
+        col4.metric("Total Duration (mins)", f"{total_duration_minutes:,.0f}")
 
     # Class Frequency Bar Chart
     with st.container():
