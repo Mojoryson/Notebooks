@@ -44,9 +44,16 @@ selected_year = st.sidebar.multiselect(
     "Select Year", sorted(df["year"].unique()), default=df["year"].unique()
 )
 
+# Add vertical space
+st.sidebar.markdown("<br>", unsafe_allow_html=True)
+
+# Multi-select for location
 location = st.sidebar.multiselect(
     "Select Location", sorted(df["location"].unique()), default=df["location"].unique()
 )
+
+# Add vertical space
+st.sidebar.markdown("<br>", unsafe_allow_html=True)
 
 # Multi-select for filtered class names
 selected_class = st.sidebar.multiselect(
@@ -55,7 +62,9 @@ selected_class = st.sidebar.multiselect(
 
 # Apply Filters
 filtered_df = df[
-    (df["year"].isin(selected_year)) & (df["class_name"].isin(selected_class) & (df["location"].isin(location)))
+    (df["year"].isin(selected_year)) & 
+    (df["class_name"].isin(selected_class) & 
+     (df["location"].isin(location)))
 ]
 
 with st.container():
