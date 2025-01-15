@@ -16,6 +16,9 @@ df["month"] = df["month"].astype(str)
 df["year"] = df["year"].astype(str)
 df["class_name"] = df["class_name"].fillna("Unknown")
 
+# Extract everything before 'w/ ' or similar patterns
+df['location'] = df['location'].str.extract(r"^(.*?)(?:, LLC\.| w/|$)")[0].str.strip()
+
 # Title and Description
 st.title("Workout Report and Visualizations")
 st.write(
@@ -41,6 +44,10 @@ selected_year = st.sidebar.multiselect(
     "Select Year", sorted(df["year"].unique()), default=df["year"].unique()
 )
 
+location = st.sidebar.multiselect(
+    "Select Location", sorted(df["location"].unique()), default=df["location"].unique()
+)
+
 # Multi-select for filtered class names
 selected_class = st.sidebar.multiselect(
     "Select Class", filtered_classes, default=filtered_classes
@@ -48,8 +55,9 @@ selected_class = st.sidebar.multiselect(
 
 # Apply Filters
 filtered_df = df[
-    (df["year"].isin(selected_year)) & (df["class_name"].isin(selected_class))
+    (df["year"].isin(selected_year)) & (df["class_name"].isin(selected_class) & (df["location"].isin(location)))
 ]
+
 with st.container():
     with st.expander("View the data"):
         st.write( """
