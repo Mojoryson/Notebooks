@@ -98,7 +98,8 @@ st.pyplot(fig)
 
 # Heatmap: Popular Time of Day
 # Remove timezone (e.g., 'EDT', 'EST') from time_of_day
-filtered_df['time_of_day'] = filtered_df['time_of_day'].str.extract(r'(\d+:\d+\w+)')
+filtered_df['time_of_day'] = filtered_df['time_of_day'].str.extract(r'(\d+:\d+\w+)').fillna("Unknown")
+
 
 # Heatmap: Popular Time of Day
 st.write("### Popular Time of Day")
