@@ -53,6 +53,15 @@ filtered_df = df[
     (df["year"].isin(selected_year)) & (df["class_name"].isin(selected_class))
 ]
 
+with st.expander("View the data"):
+    st.write( """
+             The data below is an export from 
+             Mindbody.com. It contains the workout history
+             & was done using BeautifulSoup. 
+             """)
+    st.dataframe(df)
+
+
 # Key Metrics
 st.write("### Key Metrics")
 total_sessions = len(filtered_df)
